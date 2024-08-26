@@ -1,7 +1,12 @@
 import "./App.css";
+import PassStr from "./components/PassStr";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <PassStr />
+    </>
+  );
 }
 
 export default App;

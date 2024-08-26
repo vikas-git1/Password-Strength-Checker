@@ -1,0 +1,77 @@
+.container {
+  background-color: grey;
+  height: 25vh;
+
+  padding: 30px 30px 0px 30px;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 5px white;
+}
+
+.input_copy_container {
+  /* display: flex;
+  justify-content: space-evenly; */
+  /* align-items: center; */
+  position: relative;
+}
+
+.input {
+  width: 20vw;
+  padding: 10px 20px 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid black; /* Default border color */
+  outline: none;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.copy_icon {
+  height: 2rem;
+  width: 3rem;
+  color: rgb(0, 255, 251);
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+  top: 11px;
+}
+.copy_icon:active {
+  color: rgb(0, 157, 255);
+  transition: 0.1s ease-in-out;
+}
+.message {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Strength-specific styles */
+.message.strong {
+  color: rgb(0, 255, 0);
+}
+
+.message.moderate {
+  color: rgb(255, 251, 0);
+}
+
+.message.weak {
+  color: rgb(201, 2, 2);
+}
+
+/*  */
+.test_pass_field {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  width: 10vw;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid black; /* Default border color */
+  outline: none;
+  font-size: 17px;
+  font-weight: bold;
+}
